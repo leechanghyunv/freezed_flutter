@@ -8,16 +8,16 @@ part of 'time_table_api.dart';
 
 _$_TimeTableModel _$$_TimeTableModelFromJson(Map<String, dynamic> json) =>
     _$_TimeTableModel(
-      searchStnTimeTableByIdService: json['searchStnTimeTableByIdService'] ==
+      SearchSTNTimeTableByIDService: json['SearchSTNTimeTableByIDService'] ==
               null
           ? null
           : SearchStnTimeTableByIdService.fromJson(
-              json['searchStnTimeTableByIdService'] as Map<String, dynamic>),
+              json['SearchSTNTimeTableByIDService'] as Map<String, dynamic>),
     );
 
 Map<String, dynamic> _$$_TimeTableModelToJson(_$_TimeTableModel instance) =>
     <String, dynamic>{
-      'searchStnTimeTableByIdService': instance.searchStnTimeTableByIdService,
+      'SearchSTNTimeTableByIDService': instance.SearchSTNTimeTableByIDService,
     };
 
 _$_SearchStnTimeTableByIdService _$$_SearchStnTimeTableByIdServiceFromJson(
@@ -36,21 +36,21 @@ Map<String, dynamic> _$$_SearchStnTimeTableByIdServiceToJson(
     };
 
 _$_Row _$$_RowFromJson(Map<String, dynamic> json) => _$_Row(
-      stationCd: json['stationCd'] as String?,
-      trainNo: json['trainNo'] as String?,
-      arrivetime: json['arrivetime'] as String?,
-      originstation: json['originstation'] as String?,
-      subwaysname: json['subwaysname'] as String?,
-      subwayename: json['subwayename'] as String?,
-      expressYn: json['expressYn'] as String?,
+      STATION_CD: json['STATION_CD'] as String?,
+      STATION_NM: json['STATION_NM'] as String?,
+      ARRIVETIME: json['ARRIVETIME'] as String?,
+      ORIGINSTATION: json['ORIGINSTATION'] as String?,
+      SUBWAYSNAME: json['SUBWAYSNAME'] as String?,
+      SUBWAYENAME: json['SUBWAYENAME'] as String?,
+      EXPRESS_YN: json['EXPRESS_YN'] as String?,
     );
 
 Map<String, dynamic> _$$_RowToJson(_$_Row instance) => <String, dynamic>{
-      'stationCd': instance.stationCd,
-      'trainNo': instance.trainNo,
-      'arrivetime': instance.arrivetime,
-      'originstation': instance.originstation,
-      'subwaysname': instance.subwaysname,
-      'subwayename': instance.subwayename,
-      'expressYn': instance.expressYn,
+      'STATION_CD': instance.STATION_CD,
+      'STATION_NM': instance.STATION_NM,
+      'ARRIVETIME': instance.ARRIVETIME,
+      'ORIGINSTATION': instance.ORIGINSTATION,
+      'SUBWAYSNAME': instance.SUBWAYSNAME,
+      'SUBWAYENAME': instance.SUBWAYENAME,
+      'EXPRESS_YN': instance.EXPRESS_YN,
     };

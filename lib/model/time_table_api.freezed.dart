@@ -20,7 +20,7 @@ TimeTableModel _$TimeTableModelFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$TimeTableModel {
-  SearchStnTimeTableByIdService? get searchStnTimeTableByIdService =>
+  SearchStnTimeTableByIdService? get SearchSTNTimeTableByIDService =>
       throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -35,10 +35,10 @@ abstract class $TimeTableModelCopyWith<$Res> {
           TimeTableModel value, $Res Function(TimeTableModel) then) =
       _$TimeTableModelCopyWithImpl<$Res, TimeTableModel>;
   @useResult
-  $Res call({SearchStnTimeTableByIdService? searchStnTimeTableByIdService});
+  $Res call({SearchStnTimeTableByIdService? SearchSTNTimeTableByIDService});
 
   $SearchStnTimeTableByIdServiceCopyWith<$Res>?
-      get searchStnTimeTableByIdService;
+      get SearchSTNTimeTableByIDService;
 }
 
 /// @nodoc
@@ -54,12 +54,12 @@ class _$TimeTableModelCopyWithImpl<$Res, $Val extends TimeTableModel>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? searchStnTimeTableByIdService = freezed,
+    Object? SearchSTNTimeTableByIDService = freezed,
   }) {
     return _then(_value.copyWith(
-      searchStnTimeTableByIdService: freezed == searchStnTimeTableByIdService
-          ? _value.searchStnTimeTableByIdService
-          : searchStnTimeTableByIdService // ignore: cast_nullable_to_non_nullable
+      SearchSTNTimeTableByIDService: freezed == SearchSTNTimeTableByIDService
+          ? _value.SearchSTNTimeTableByIDService
+          : SearchSTNTimeTableByIDService // ignore: cast_nullable_to_non_nullable
               as SearchStnTimeTableByIdService?,
     ) as $Val);
   }
@@ -67,15 +67,15 @@ class _$TimeTableModelCopyWithImpl<$Res, $Val extends TimeTableModel>
   @override
   @pragma('vm:prefer-inline')
   $SearchStnTimeTableByIdServiceCopyWith<$Res>?
-      get searchStnTimeTableByIdService {
-    if (_value.searchStnTimeTableByIdService == null) {
+      get SearchSTNTimeTableByIDService {
+    if (_value.SearchSTNTimeTableByIDService == null) {
       return null;
     }
 
     return $SearchStnTimeTableByIdServiceCopyWith<$Res>(
-        _value.searchStnTimeTableByIdService!, (value) {
+        _value.SearchSTNTimeTableByIDService!, (value) {
       return _then(
-          _value.copyWith(searchStnTimeTableByIdService: value) as $Val);
+          _value.copyWith(SearchSTNTimeTableByIDService: value) as $Val);
     });
   }
 }
@@ -88,11 +88,11 @@ abstract class _$$_TimeTableModelCopyWith<$Res>
       __$$_TimeTableModelCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({SearchStnTimeTableByIdService? searchStnTimeTableByIdService});
+  $Res call({SearchStnTimeTableByIdService? SearchSTNTimeTableByIDService});
 
   @override
   $SearchStnTimeTableByIdServiceCopyWith<$Res>?
-      get searchStnTimeTableByIdService;
+      get SearchSTNTimeTableByIDService;
 }
 
 /// @nodoc
@@ -106,12 +106,12 @@ class __$$_TimeTableModelCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? searchStnTimeTableByIdService = freezed,
+    Object? SearchSTNTimeTableByIDService = freezed,
   }) {
     return _then(_$_TimeTableModel(
-      searchStnTimeTableByIdService: freezed == searchStnTimeTableByIdService
-          ? _value.searchStnTimeTableByIdService
-          : searchStnTimeTableByIdService // ignore: cast_nullable_to_non_nullable
+      SearchSTNTimeTableByIDService: freezed == SearchSTNTimeTableByIDService
+          ? _value.SearchSTNTimeTableByIDService
+          : SearchSTNTimeTableByIDService // ignore: cast_nullable_to_non_nullable
               as SearchStnTimeTableByIdService?,
     ));
   }
@@ -120,17 +120,17 @@ class __$$_TimeTableModelCopyWithImpl<$Res>
 /// @nodoc
 @JsonSerializable()
 class _$_TimeTableModel implements _TimeTableModel {
-  const _$_TimeTableModel({required this.searchStnTimeTableByIdService});
+  const _$_TimeTableModel({required this.SearchSTNTimeTableByIDService});
 
   factory _$_TimeTableModel.fromJson(Map<String, dynamic> json) =>
       _$$_TimeTableModelFromJson(json);
 
   @override
-  final SearchStnTimeTableByIdService? searchStnTimeTableByIdService;
+  final SearchStnTimeTableByIdService? SearchSTNTimeTableByIDService;
 
   @override
   String toString() {
-    return 'TimeTableModel(searchStnTimeTableByIdService: $searchStnTimeTableByIdService)';
+    return 'TimeTableModel(SearchSTNTimeTableByIDService: $SearchSTNTimeTableByIDService)';
   }
 
   @override
@@ -138,15 +138,15 @@ class _$_TimeTableModel implements _TimeTableModel {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$_TimeTableModel &&
-            (identical(other.searchStnTimeTableByIdService,
-                    searchStnTimeTableByIdService) ||
-                other.searchStnTimeTableByIdService ==
-                    searchStnTimeTableByIdService));
+            (identical(other.SearchSTNTimeTableByIDService,
+                    SearchSTNTimeTableByIDService) ||
+                other.SearchSTNTimeTableByIDService ==
+                    SearchSTNTimeTableByIDService));
   }
 
   @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(runtimeType, searchStnTimeTableByIdService);
+  int get hashCode => Object.hash(runtimeType, SearchSTNTimeTableByIDService);
 
   @JsonKey(ignore: true)
   @override
@@ -165,13 +165,13 @@ class _$_TimeTableModel implements _TimeTableModel {
 abstract class _TimeTableModel implements TimeTableModel {
   const factory _TimeTableModel(
       {required final SearchStnTimeTableByIdService?
-          searchStnTimeTableByIdService}) = _$_TimeTableModel;
+          SearchSTNTimeTableByIDService}) = _$_TimeTableModel;
 
   factory _TimeTableModel.fromJson(Map<String, dynamic> json) =
       _$_TimeTableModel.fromJson;
 
   @override
-  SearchStnTimeTableByIdService? get searchStnTimeTableByIdService;
+  SearchStnTimeTableByIdService? get SearchSTNTimeTableByIDService;
   @override
   @JsonKey(ignore: true)
   _$$_TimeTableModelCopyWith<_$_TimeTableModel> get copyWith =>
@@ -341,19 +341,19 @@ Row _$RowFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$Row {
-  String? get stationCd => throw _privateConstructorUsedError;
-  String? get trainNo => throw _privateConstructorUsedError;
-  String? get arrivetime => throw _privateConstructorUsedError;
+  String? get STATION_CD => throw _privateConstructorUsedError;
+  String? get STATION_NM => throw _privateConstructorUsedError;
+  String? get ARRIVETIME => throw _privateConstructorUsedError;
 
   ///
-  String? get originstation => throw _privateConstructorUsedError;
-  String? get subwaysname => throw _privateConstructorUsedError;
+  String? get ORIGINSTATION => throw _privateConstructorUsedError;
+  String? get SUBWAYSNAME => throw _privateConstructorUsedError;
 
   ///
-  String? get subwayename => throw _privateConstructorUsedError;
+  String? get SUBWAYENAME => throw _privateConstructorUsedError;
 
   ///
-  String? get expressYn => throw _privateConstructorUsedError;
+  String? get EXPRESS_YN => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -366,13 +366,13 @@ abstract class $RowCopyWith<$Res> {
       _$RowCopyWithImpl<$Res, Row>;
   @useResult
   $Res call(
-      {String? stationCd,
-      String? trainNo,
-      String? arrivetime,
-      String? originstation,
-      String? subwaysname,
-      String? subwayename,
-      String? expressYn});
+      {String? STATION_CD,
+      String? STATION_NM,
+      String? ARRIVETIME,
+      String? ORIGINSTATION,
+      String? SUBWAYSNAME,
+      String? SUBWAYENAME,
+      String? EXPRESS_YN});
 }
 
 /// @nodoc
@@ -387,42 +387,42 @@ class _$RowCopyWithImpl<$Res, $Val extends Row> implements $RowCopyWith<$Res> {
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? stationCd = freezed,
-    Object? trainNo = freezed,
-    Object? arrivetime = freezed,
-    Object? originstation = freezed,
-    Object? subwaysname = freezed,
-    Object? subwayename = freezed,
-    Object? expressYn = freezed,
+    Object? STATION_CD = freezed,
+    Object? STATION_NM = freezed,
+    Object? ARRIVETIME = freezed,
+    Object? ORIGINSTATION = freezed,
+    Object? SUBWAYSNAME = freezed,
+    Object? SUBWAYENAME = freezed,
+    Object? EXPRESS_YN = freezed,
   }) {
     return _then(_value.copyWith(
-      stationCd: freezed == stationCd
-          ? _value.stationCd
-          : stationCd // ignore: cast_nullable_to_non_nullable
+      STATION_CD: freezed == STATION_CD
+          ? _value.STATION_CD
+          : STATION_CD // ignore: cast_nullable_to_non_nullable
               as String?,
-      trainNo: freezed == trainNo
-          ? _value.trainNo
-          : trainNo // ignore: cast_nullable_to_non_nullable
+      STATION_NM: freezed == STATION_NM
+          ? _value.STATION_NM
+          : STATION_NM // ignore: cast_nullable_to_non_nullable
               as String?,
-      arrivetime: freezed == arrivetime
-          ? _value.arrivetime
-          : arrivetime // ignore: cast_nullable_to_non_nullable
+      ARRIVETIME: freezed == ARRIVETIME
+          ? _value.ARRIVETIME
+          : ARRIVETIME // ignore: cast_nullable_to_non_nullable
               as String?,
-      originstation: freezed == originstation
-          ? _value.originstation
-          : originstation // ignore: cast_nullable_to_non_nullable
+      ORIGINSTATION: freezed == ORIGINSTATION
+          ? _value.ORIGINSTATION
+          : ORIGINSTATION // ignore: cast_nullable_to_non_nullable
               as String?,
-      subwaysname: freezed == subwaysname
-          ? _value.subwaysname
-          : subwaysname // ignore: cast_nullable_to_non_nullable
+      SUBWAYSNAME: freezed == SUBWAYSNAME
+          ? _value.SUBWAYSNAME
+          : SUBWAYSNAME // ignore: cast_nullable_to_non_nullable
               as String?,
-      subwayename: freezed == subwayename
-          ? _value.subwayename
-          : subwayename // ignore: cast_nullable_to_non_nullable
+      SUBWAYENAME: freezed == SUBWAYENAME
+          ? _value.SUBWAYENAME
+          : SUBWAYENAME // ignore: cast_nullable_to_non_nullable
               as String?,
-      expressYn: freezed == expressYn
-          ? _value.expressYn
-          : expressYn // ignore: cast_nullable_to_non_nullable
+      EXPRESS_YN: freezed == EXPRESS_YN
+          ? _value.EXPRESS_YN
+          : EXPRESS_YN // ignore: cast_nullable_to_non_nullable
               as String?,
     ) as $Val);
   }
@@ -435,13 +435,13 @@ abstract class _$$_RowCopyWith<$Res> implements $RowCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {String? stationCd,
-      String? trainNo,
-      String? arrivetime,
-      String? originstation,
-      String? subwaysname,
-      String? subwayename,
-      String? expressYn});
+      {String? STATION_CD,
+      String? STATION_NM,
+      String? ARRIVETIME,
+      String? ORIGINSTATION,
+      String? SUBWAYSNAME,
+      String? SUBWAYENAME,
+      String? EXPRESS_YN});
 }
 
 /// @nodoc
@@ -453,42 +453,42 @@ class __$$_RowCopyWithImpl<$Res> extends _$RowCopyWithImpl<$Res, _$_Row>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? stationCd = freezed,
-    Object? trainNo = freezed,
-    Object? arrivetime = freezed,
-    Object? originstation = freezed,
-    Object? subwaysname = freezed,
-    Object? subwayename = freezed,
-    Object? expressYn = freezed,
+    Object? STATION_CD = freezed,
+    Object? STATION_NM = freezed,
+    Object? ARRIVETIME = freezed,
+    Object? ORIGINSTATION = freezed,
+    Object? SUBWAYSNAME = freezed,
+    Object? SUBWAYENAME = freezed,
+    Object? EXPRESS_YN = freezed,
   }) {
     return _then(_$_Row(
-      stationCd: freezed == stationCd
-          ? _value.stationCd
-          : stationCd // ignore: cast_nullable_to_non_nullable
+      STATION_CD: freezed == STATION_CD
+          ? _value.STATION_CD
+          : STATION_CD // ignore: cast_nullable_to_non_nullable
               as String?,
-      trainNo: freezed == trainNo
-          ? _value.trainNo
-          : trainNo // ignore: cast_nullable_to_non_nullable
+      STATION_NM: freezed == STATION_NM
+          ? _value.STATION_NM
+          : STATION_NM // ignore: cast_nullable_to_non_nullable
               as String?,
-      arrivetime: freezed == arrivetime
-          ? _value.arrivetime
-          : arrivetime // ignore: cast_nullable_to_non_nullable
+      ARRIVETIME: freezed == ARRIVETIME
+          ? _value.ARRIVETIME
+          : ARRIVETIME // ignore: cast_nullable_to_non_nullable
               as String?,
-      originstation: freezed == originstation
-          ? _value.originstation
-          : originstation // ignore: cast_nullable_to_non_nullable
+      ORIGINSTATION: freezed == ORIGINSTATION
+          ? _value.ORIGINSTATION
+          : ORIGINSTATION // ignore: cast_nullable_to_non_nullable
               as String?,
-      subwaysname: freezed == subwaysname
-          ? _value.subwaysname
-          : subwaysname // ignore: cast_nullable_to_non_nullable
+      SUBWAYSNAME: freezed == SUBWAYSNAME
+          ? _value.SUBWAYSNAME
+          : SUBWAYSNAME // ignore: cast_nullable_to_non_nullable
               as String?,
-      subwayename: freezed == subwayename
-          ? _value.subwayename
-          : subwayename // ignore: cast_nullable_to_non_nullable
+      SUBWAYENAME: freezed == SUBWAYENAME
+          ? _value.SUBWAYENAME
+          : SUBWAYENAME // ignore: cast_nullable_to_non_nullable
               as String?,
-      expressYn: freezed == expressYn
-          ? _value.expressYn
-          : expressYn // ignore: cast_nullable_to_non_nullable
+      EXPRESS_YN: freezed == EXPRESS_YN
+          ? _value.EXPRESS_YN
+          : EXPRESS_YN // ignore: cast_nullable_to_non_nullable
               as String?,
     ));
   }
@@ -498,40 +498,40 @@ class __$$_RowCopyWithImpl<$Res> extends _$RowCopyWithImpl<$Res, _$_Row>
 @JsonSerializable()
 class _$_Row implements _Row {
   const _$_Row(
-      {required this.stationCd,
-      required this.trainNo,
-      required this.arrivetime,
-      required this.originstation,
-      required this.subwaysname,
-      required this.subwayename,
-      required this.expressYn});
+      {required this.STATION_CD,
+      required this.STATION_NM,
+      required this.ARRIVETIME,
+      required this.ORIGINSTATION,
+      required this.SUBWAYSNAME,
+      required this.SUBWAYENAME,
+      required this.EXPRESS_YN});
 
   factory _$_Row.fromJson(Map<String, dynamic> json) => _$$_RowFromJson(json);
 
   @override
-  final String? stationCd;
+  final String? STATION_CD;
   @override
-  final String? trainNo;
+  final String? STATION_NM;
   @override
-  final String? arrivetime;
+  final String? ARRIVETIME;
 
   ///
   @override
-  final String? originstation;
+  final String? ORIGINSTATION;
   @override
-  final String? subwaysname;
+  final String? SUBWAYSNAME;
 
   ///
   @override
-  final String? subwayename;
+  final String? SUBWAYENAME;
 
   ///
   @override
-  final String? expressYn;
+  final String? EXPRESS_YN;
 
   @override
   String toString() {
-    return 'Row(stationCd: $stationCd, trainNo: $trainNo, arrivetime: $arrivetime, originstation: $originstation, subwaysname: $subwaysname, subwayename: $subwayename, expressYn: $expressYn)';
+    return 'Row(STATION_CD: $STATION_CD, STATION_NM: $STATION_NM, ARRIVETIME: $ARRIVETIME, ORIGINSTATION: $ORIGINSTATION, SUBWAYSNAME: $SUBWAYSNAME, SUBWAYENAME: $SUBWAYENAME, EXPRESS_YN: $EXPRESS_YN)';
   }
 
   @override
@@ -539,25 +539,26 @@ class _$_Row implements _Row {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$_Row &&
-            (identical(other.stationCd, stationCd) ||
-                other.stationCd == stationCd) &&
-            (identical(other.trainNo, trainNo) || other.trainNo == trainNo) &&
-            (identical(other.arrivetime, arrivetime) ||
-                other.arrivetime == arrivetime) &&
-            (identical(other.originstation, originstation) ||
-                other.originstation == originstation) &&
-            (identical(other.subwaysname, subwaysname) ||
-                other.subwaysname == subwaysname) &&
-            (identical(other.subwayename, subwayename) ||
-                other.subwayename == subwayename) &&
-            (identical(other.expressYn, expressYn) ||
-                other.expressYn == expressYn));
+            (identical(other.STATION_CD, STATION_CD) ||
+                other.STATION_CD == STATION_CD) &&
+            (identical(other.STATION_NM, STATION_NM) ||
+                other.STATION_NM == STATION_NM) &&
+            (identical(other.ARRIVETIME, ARRIVETIME) ||
+                other.ARRIVETIME == ARRIVETIME) &&
+            (identical(other.ORIGINSTATION, ORIGINSTATION) ||
+                other.ORIGINSTATION == ORIGINSTATION) &&
+            (identical(other.SUBWAYSNAME, SUBWAYSNAME) ||
+                other.SUBWAYSNAME == SUBWAYSNAME) &&
+            (identical(other.SUBWAYENAME, SUBWAYENAME) ||
+                other.SUBWAYENAME == SUBWAYENAME) &&
+            (identical(other.EXPRESS_YN, EXPRESS_YN) ||
+                other.EXPRESS_YN == EXPRESS_YN));
   }
 
   @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(runtimeType, stationCd, trainNo, arrivetime,
-      originstation, subwaysname, subwayename, expressYn);
+  int get hashCode => Object.hash(runtimeType, STATION_CD, STATION_NM,
+      ARRIVETIME, ORIGINSTATION, SUBWAYSNAME, SUBWAYENAME, EXPRESS_YN);
 
   @JsonKey(ignore: true)
   @override
@@ -575,36 +576,36 @@ class _$_Row implements _Row {
 
 abstract class _Row implements Row {
   const factory _Row(
-      {required final String? stationCd,
-      required final String? trainNo,
-      required final String? arrivetime,
-      required final String? originstation,
-      required final String? subwaysname,
-      required final String? subwayename,
-      required final String? expressYn}) = _$_Row;
+      {required final String? STATION_CD,
+      required final String? STATION_NM,
+      required final String? ARRIVETIME,
+      required final String? ORIGINSTATION,
+      required final String? SUBWAYSNAME,
+      required final String? SUBWAYENAME,
+      required final String? EXPRESS_YN}) = _$_Row;
 
   factory _Row.fromJson(Map<String, dynamic> json) = _$_Row.fromJson;
 
   @override
-  String? get stationCd;
+  String? get STATION_CD;
   @override
-  String? get trainNo;
+  String? get STATION_NM;
   @override
-  String? get arrivetime;
-  @override
-
-  ///
-  String? get originstation;
-  @override
-  String? get subwaysname;
+  String? get ARRIVETIME;
   @override
 
   ///
-  String? get subwayename;
+  String? get ORIGINSTATION;
+  @override
+  String? get SUBWAYSNAME;
   @override
 
   ///
-  String? get expressYn;
+  String? get SUBWAYENAME;
+  @override
+
+  ///
+  String? get EXPRESS_YN;
   @override
   @JsonKey(ignore: true)
   _$$_RowCopyWith<_$_Row> get copyWith => throw _privateConstructorUsedError;

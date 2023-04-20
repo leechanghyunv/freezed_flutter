@@ -5,7 +5,7 @@ part 'time_table_api.freezed.dart';
 @Freezed()
 class TimeTableModel with _$TimeTableModel{
   const factory TimeTableModel({
-    required SearchStnTimeTableByIdService? searchStnTimeTableByIdService,
+    required SearchStnTimeTableByIdService? SearchSTNTimeTableByIDService,
   }) = _TimeTableModel;
   factory TimeTableModel.fromJson(Map<String, Object?> json) => _$TimeTableModelFromJson(json);
 }
@@ -19,13 +19,13 @@ class SearchStnTimeTableByIdService with _$SearchStnTimeTableByIdService {
 @Freezed()
 class Row with _$Row{
   const factory Row({
-    required String? stationCd,
-    required String? trainNo,
-    required String? arrivetime, ///
-    required String? originstation,
-    required String? subwaysname, ///
-    required String? subwayename, ///
-    required String? expressYn, ///
+    required String? STATION_CD,
+    required String? STATION_NM,
+    required String? ARRIVETIME, ///
+    required String? ORIGINSTATION,
+    required String? SUBWAYSNAME, ///
+    required String? SUBWAYENAME, ///
+    required String? EXPRESS_YN, ///
   }) = _Row;
   factory Row.fromJson(Map<String, Object?> json) => _$RowFromJson(json);
 }
